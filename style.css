@@ -1,0 +1,60 @@
+/* settings for tags */
+html {
+    position: relative;
+    min-height: 100%; 
+}
+  
+    body{
+        background-color:rgb(161,100,223)  ;
+        color: #fff;
+        font-family: 'Muli', sans-serif;
+        display: flex;
+        flex-wrap:wrap;
+        text-align: center;
+        align-items: center;
+        justify-content: center;
+        height: 100vh;
+        overflow: hidden;
+        margin: 0;
+    }
+  
+
+  
+  h1 {
+    color: #fff;
+    font-size: 4em;
+    margin-bottom: 1em; 
+}
+  
+    .btn{
+        background-color: lightyellow;
+        border-radius: 5px;
+        border: none;
+        color:darkslateblue;
+        margin: 1rem;
+        padding: 1.5rem 3rem;
+        font-size: 1.2rem;
+        font-family: inherit;
+        cursor: pointer;
+    }
+    
+    .btn:hover {
+        opacity: .8;
+        color:darkslategrey;
+    }
+    
+    .btn:focus{
+        outline: none;
+    }
+  
+  .col-xs-6 {
+    margin-bottom: 1em; 
+}
+  
+  .text {
+    color: #d35400; 
+}
+    .text a {
+      color: #d35400;
+      text-decoration: underline;
+     }
